@@ -1,7 +1,5 @@
 # Quantum SWE Thesis Repository
 
-A concise repository for the four Python workflows used in the thesis:
-
 1. Classical implicit SWE solve using Newton iterations (`run_swe.py`)
 2. HHL-based quantum linear solve for Jacobian systems (`hhl_solver.py`)
 3. Newton-linearized QUBO solve for small linear systems (`newton_qubo_solver.py`)
