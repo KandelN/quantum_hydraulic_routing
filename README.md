@@ -8,18 +8,23 @@ A concise repository for the four Python workflows used in the thesis:
 4. Direct nonlinear binary/QUBO-style solve for the one-step SWE residual objective (`direct_qubo_system.py`, `direct_qubo_solver.py`)
 
 ## Structure
-
 ```text
-quantum-swe-thesis/
-├── run_swe.py
-├── hhl_solver.py
-├── newton_qubo_solver.py
-├── direct_qubo_system.py
-├── direct_qubo_solver.py
-├── requirements.txt
-├── data/
-├── figures/
-└── outputs/
+|-- src /
+| |-- run_swe . py
+| |-- hhl_solver . py
+| |-- newton_qubo_solver . py
+| |-- direct_qubo_system . py
+| |-- direct_qubo_solver . py
+| +-- hu_form /
+|     +-- run_hu_direct_qubo . py
+|-- data /
+| |-- swe /
+| | |-- geometry-clipped . csv
+| | +-- hydrograph . csv
+| +-- hu_form /
+| |-- data_h . csv
+| +-- data_u . csv
++-- outputs /
 ```
 
 ## Python workflow
