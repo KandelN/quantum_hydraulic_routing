@@ -139,5 +139,3 @@ Outputs:
 The residual templates follow the direct h-u construction in your Julia prototype:
 - continuity residual uses linear terms in `h` and bilinear terms in `h*u`
 - momentum residual uses bilinear `h*u`, cubic `h*u^2`, quadratic `h^2`, and linear slope terms
-
-Unknown states are detected directly from the input grids rather than through a hard-coded boundary-index rule.
